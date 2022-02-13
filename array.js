@@ -27,4 +27,7 @@ function megaFriends(friends) {
 const friends = ['sourav','shopnil','sourav hasan'];
 const bigBuddy = megaFriends(12345);
 console.log(bigBuddy);
+if (friends.indexOf('sourav') != -1) {
+    console.log("Sourav is here");
+}
 
