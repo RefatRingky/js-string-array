@@ -9,7 +9,7 @@ const searching = 'laptop';
 // for  indexOf
 const output =[];
 for( const product of products){
-    if (product.indexOf(searching) != -1) {
+    if (product.toLowerCase().indexOf(searching.toLowerCase()) != -1) {
         output.push(product);
     }
 }
