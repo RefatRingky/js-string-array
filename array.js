@@ -30,4 +30,7 @@ console.log(bigBuddy);
 if (friends.indexOf('sourav') != -1) {
     console.log("Sourav is here");
 }
+if (friends.includes('sourav') != -1) {
+    console.log("Sourav is includes");
+}
 
